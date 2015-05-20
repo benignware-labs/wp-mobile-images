@@ -11,7 +11,7 @@ Only mobile phones are supported.
 
 ## Usage
 
-All you have to do, is to create an additiontal thumbnail-size for every thumbnail you want to be handled, having the same ratio than its original thumbnail.
+All you have to do, is to create an additional thumbnail-size for every thumbnail you want to be handled, having the same ratio than its original thumbnail.
 For example, if you have an image-size defined called `large` with resolution `1200x600` and ratio `2`, you need to create another one, giving it `750x375` pixels.
 
 ```php
