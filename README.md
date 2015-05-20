@@ -17,7 +17,7 @@ For example, if you have an image-size defined called `large` with resolution `1
 ```php
 # functions.php
 add_image_size( 'large', 1200, 600, true );
-add_image_size( 'large_xs', 750, 475, true );
+add_image_size( 'large_xs', 750, 375, true );
 ```
 
 > Please note that after adding a new thumbnail size, you need to regenerate existing thumbnails. Best way to do this, is making use of good old [Regenerate Thumbnails Plugin](https://wordpress.org/plugins/regenerate-thumbnails/). You may also need to delete unwanted thumbnail files after changing your image-sizes.
