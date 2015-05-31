@@ -3,7 +3,7 @@ wp-mobile-images
 
 > Deliver smaller images on mobile
 
-This Wordpress Plugin let's you optimize images for mobile devices without much further effort.
+This Wordpress Plugin lets you optimize images for mobile devices without much further effort.
 
 
 It works totally server-sided by determining a mobile request, filtering `the_content` and `post_thumbnail_html` for local thumbnail images, getting its ratio by its src and searching for an appropriate smaller thumbnail-file matching the proportions at nearly `768px`.
